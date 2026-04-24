@@ -1,7 +1,8 @@
 from s3_helper import download_and_load_from_s3
 from agent_core import build_vector_store, load_vector_store, get_llm
+import os
 
-BUCKET_NAME = "langchain-testing-660463065978-us-east-1-an"
+BUCKET_NAME = os.getenv("BUCKET_NAME")
 
 # === Opción A: Construir desde cero (usa APIs de S3 y Gemini) ===
 # Descomentar estas líneas para reconstruir la base de datos
