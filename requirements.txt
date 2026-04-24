@@ -1,0 +1,25 @@
+# === LangChain Core ===
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+
+# === LangChain: Document Loaders ===
+langchain-unstructured
+unstructured
+markdown 
+
+# === LangChain: Embeddings (Gemini) ===
+langchain-google-genai
+
+# === LangChain: Vector Store ===
+faiss-cpu
+
+# === AWS ===
+boto3
+
+# === Entorno y Secretos ===
+python-dotenv
+
+# === Notebooks ===
+ipykernel

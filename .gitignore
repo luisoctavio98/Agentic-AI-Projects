@@ -1,0 +1,15 @@
+# Entorno virtual de Python
+.venv/
+
+# Secretos (NUNCA subir a Git)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code UI settings
+.vscode/
