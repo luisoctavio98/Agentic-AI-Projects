@@ -13,3 +13,6 @@ __pycache__/
 
 # VS Code UI settings
 .vscode/
+
+# Old files
+old/
